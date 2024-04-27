@@ -8,12 +8,14 @@ export default function Navbar() {
       link: "https://www.linkedin.com/in/mateo-donino-583035192/",
       label: "LinkedIn",
       Icon: SiLinkedin,
+      target: "_blank",
     },
 
     {
       link: "https://github.com/MateoDonino",
       label: "Github",
       Icon: SiGithub,
+      target: "_blank",
     },
   ];
 
