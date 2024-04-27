@@ -15,7 +15,7 @@ export default function HeroSection() {
         </h1>
         <p className="md:w-96 text-lg text-gray-300">
           {
-            "Apasionado por crear soluciones web innovadoras y eficientes. Dominotecnologías Frontend como HTML5, CSS3, JavaScript y ReactJS, y Backendcomo Node.js, Express.js, MongoDB, Java y Bases de Datos con SQL. Mienfoque se basa en la colaboración y la entrega de resultados de altacalidad. Me adapto fácilmente a diferentes entornos y siempre estoydispuesto a aprender y afrontar nuevos desafíos."
+            "Especializado en el Frontend, utilizando las últimas tecnologías y frameworks disponibles puedo crear sitios y aplicaciones web a medida que se adapten a tus necesidades específicas. Te puedo asesorar en la selección de la mejor tecnología para tu proyecto, analizar los requisitos y planificar el desarrollo. Te invito a que le des un vistazo a mi CV!"
           }
         </p>
         <Link

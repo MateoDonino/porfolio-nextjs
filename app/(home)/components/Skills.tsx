@@ -4,14 +4,17 @@ import Title from "./Title";
 import { HoverEffect } from "../../../components/ui/card-hover-effect";
 import {
   SiCss3,
+  SiGithub,
   SiHtml5,
   SiJavascript,
+  SiMysql,
   SiNextdotjs,
   SiNodedotjs,
   SiReact,
   SiSqlite,
   SiTailwindcss,
 } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 
 export default function Skills() {
   const skills = [
@@ -36,12 +39,24 @@ export default function Skills() {
       Icon: SiNodedotjs,
     },
     {
+      text: "Java",
+      Icon: FaJava,
+    },
+    {
+      text: "MySQL ",
+      Icon: SiMysql,
+    },
+    {
       text: "NextJS",
       Icon: SiNextdotjs,
     },
     {
       text: "TailwindCSS",
       Icon: SiTailwindcss,
+    },
+    {
+      text: "Github",
+      Icon: SiGithub,
     },
   ];
   return (
