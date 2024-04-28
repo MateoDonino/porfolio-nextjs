@@ -23,7 +23,7 @@ export default function Projects() {
       tech: [SiReact, SiVite, SiTailwindcss, SiGraphql],
       link: "https://dev-challenge-rickymorty.vercel.app/",
       cover: "/web1.png",
-      background: "bg-indigo-500",
+      background: "bg-slate-300",
       target: "_blank",
     },
     {
@@ -31,15 +31,15 @@ export default function Projects() {
       tech: [SiHtml5, SiCss3, SiReact, SiVite, SiBootstrap],
       link: "https://dev-challenge-rickymorty.vercel.app/",
       cover: "/web4.png",
-      background: "bg-green-500",
+      background: "bg-slate-300",
       target: "_blank",
     },
     {
       title: "Portfolio Web",
       tech: [SiReact, SiNextdotjs, SiTailwindcss, SiTypescript],
       link: "https://dev-challenge-rickymorty.vercel.app/",
-      cover: "/web6.png",
-      background: "bg-indigo-500",
+      cover: "/web7.png",
+      background: "bg-slate-300",
       target: "_blank",
     },
   ];
