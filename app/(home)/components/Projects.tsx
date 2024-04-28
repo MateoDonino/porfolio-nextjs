@@ -1,9 +1,20 @@
 import React from "react";
-import { SiGraphql, SiReact, SiTailwindcss, SiVite } from "react-icons/si";
+import {
+  SiBootstrap,
+  SiCss3,
+  SiGraphql,
+  SiHtml5,
+  SiNextdotjs,
+  SiReact,
+  SiTailwindcss,
+  SiTypescript,
+  SiVite,
+} from "react-icons/si";
 import Title from "./Title";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { DirectionAwareHover } from "../../../components/ui/direction-aware-hover";
+import { FaCode } from "react-icons/fa6";
 
 export default function Projects() {
   const projects = [
@@ -13,20 +24,23 @@ export default function Projects() {
       link: "https://dev-challenge-rickymorty.vercel.app/",
       cover: "/web1.png",
       background: "bg-indigo-500",
+      target: "_blank",
     },
     {
-      title: "Api Rick and Morty",
-      tech: [SiReact, SiVite, SiTailwindcss, SiGraphql],
+      title: "Lutin Studio",
+      tech: [SiHtml5, SiCss3, SiReact, SiVite, SiBootstrap],
+      link: "https://dev-challenge-rickymorty.vercel.app/",
+      cover: "/web4.png",
+      background: "bg-green-500",
+      target: "_blank",
+    },
+    {
+      title: "Portfolio Web",
+      tech: [SiReact, SiNextdotjs, SiTailwindcss, SiTypescript],
       link: "https://dev-challenge-rickymorty.vercel.app/",
       cover: "/web6.png",
       background: "bg-indigo-500",
-    },
-    {
-      title: "Api Rick and Morty",
-      tech: [SiReact, SiVite, SiTailwindcss, SiGraphql],
-      link: "https://dev-challenge-rickymorty.vercel.app/",
-      cover: "/web1.png",
-      background: "bg-indigo-500",
+      target: "_blank",
     },
   ];
 
@@ -39,8 +53,8 @@ export default function Projects() {
       <div className="grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5">
         {projects.map((project, index) => {
           return (
-            <Link href={project.link} key={index}>
-              <div className={cn("p-5 rounded-md", project.background)}>
+            <Link href={project.link} key={index} target={project.target}>
+              <div className={cn("p-4 rounded-md", project.background)}>
                 <DirectionAwareHover
                   imageUrl={project.cover}
                   className="w-full space-y-5 cursor-pointer"

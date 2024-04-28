@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useRef } from "react";
 import Title from "./Title";
 import { HoverEffect } from "../../../components/ui/card-hover-effect";
 import {
@@ -65,6 +65,7 @@ export default function Skills() {
         text={"Skills 🎓"}
         className="flex flex-col items-center justify-center -rotate-6"
       />
+
       <HoverEffect items={skills} />
     </div>
   );
