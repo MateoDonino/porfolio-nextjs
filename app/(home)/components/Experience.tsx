@@ -13,7 +13,7 @@ export default function Experience() {
           className="flex flex-col items-center justify-center rotate-6"
         />
       </div>
-      <ul className=" mt-10 timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+      <ul className=" mt-20 timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
         <li>
           <div className="timeline-middle"></div>
           <div className="timeline-start mb-10 ">
