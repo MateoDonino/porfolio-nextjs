@@ -9,7 +9,7 @@ export default function Experience() {
     <section>
       <div className="max-w-5xl mx-auto px-8">
         <Title
-          text={"Experiencia Laboral 🧑🏻‍💼"}
+          text={"Experiencia 🧑🏻‍💼"}
           className="flex flex-col items-center justify-center rotate-6"
         />
       </div>
