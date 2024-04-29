@@ -29,6 +29,12 @@ export default function Navbar({ className }: { className?: string }) {
     },
   ];
 
+  const handleMailClick = () => {
+    const email = "mateodonino@gmail.com";
+    const message = `Ponete en contacto conmigo a mi correo electrónico: ${email}`;
+    alert(message);
+  };
+
   return (
     <nav className={cn(" py-10 flex justify-between items-center", className)}>
       <a
@@ -47,7 +53,10 @@ export default function Navbar({ className }: { className?: string }) {
               aria-label={social.label}
               target={social.target}
             >
-              <Icon className="w-5 h-5 hover:scale-125 transition-all" />
+              <Icon
+                className="w-5 h-5 hover:scale-125 transition-all"
+                onClick={social.label === "Mail" ? handleMailClick : undefined}
+              />
             </Link>
           );
         })}
