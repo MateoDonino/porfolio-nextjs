@@ -74,8 +74,8 @@ export default function Projects() {
                 </DirectionAwareHover>
               </div>
               <Link href={project.github} target="_blank">
-                <p className="mt-3 flex flex-row gap-2 text-xl justify-center">
-                  Codigo en GitHub <SiGithub className=" w-5 h-5" />
+                <p className="mt-3 flex flex-row gap-2 text-xl justify-center hover:text-green-500">
+                  Codigo en GitHub <SiGithub className="mt-1 w-5 h-5" />
                 </p>
               </Link>
             </Link>
