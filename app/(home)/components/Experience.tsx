@@ -25,14 +25,14 @@ export default function Experience() {
             <div className="text-[#ADB7BE] text-justify">
               <p className=" mt-1 ">
                 · Estuve a cargo de la supervisión y control de stock en los
-                distintos puntos fisicos de venta de la ciudad de Santa Fe
+                distintos puntos fisicos de venta de la ciudad de Santa Fe.
               </p>
               <p className=" mt-2">
                 · Eficiente trabajo en equipo, resposnabilidad y gran
                 comunicación.
               </p>
               <p className=" mt-2">
-                · Excelente cumplimiento de atención al cliente
+                · Excelente cumplimiento de atención al cliente.
               </p>
             </div>
           </div>
@@ -41,14 +41,14 @@ export default function Experience() {
         <li>
           <hr />
           <div className="timeline-end mb-10 mt-2">
-            <div className="text-xl font-bold">Desarrollador Web</div>
+            <div className="text-xl font-bold">Desarrollador Web Frontend</div>
             <div className="text-lg text-green-500">LUTIN STUDIOS</div>
             <time className="text-sm">Agosto - Noviembre 2022</time>
             <div className="text-[#ADB7BE] text-justify">
               <p className="mt-1">
                 · Colaboré en un proyecto Freelance para un cliente de Chile.
                 Consistió en la creación de una Página Web de promoción de NFT
-                (Tokens no Fungibles)
+                (Tokens no Fungibles).
               </p>
               <p className="mt-2">
                 · Desarrollo y diseño en la interfaz de usuario utilizando
