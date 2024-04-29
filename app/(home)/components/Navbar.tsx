@@ -1,5 +1,7 @@
+"use client";
 import React from "react";
-import { SiGithub, SiLinkedin } from "react-icons/si";
+import { SiGithub, SiLinkedin, SiGmail } from "react-icons/si";
+import { IoMdMail } from "react-icons/io";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 
@@ -18,7 +20,20 @@ export default function Navbar({ className }: { className?: string }) {
       Icon: SiGithub,
       target: "_blank",
     },
+
+    {
+      link: "",
+      label: "Mail",
+      Icon: IoMdMail,
+      target: "",
+    },
   ];
+
+  const handleMailClick = () => {
+    const email = "mateodonino@gmail.com";
+    const message = `Para más información, comunicate a mi correo electrónico: ${email}`;
+    alert(message);
+  };
 
   return (
     <nav className={cn(" py-10 flex justify-between items-center", className)}>
@@ -38,7 +53,10 @@ export default function Navbar({ className }: { className?: string }) {
               aria-label={social.label}
               target={social.target}
             >
-              <Icon className="w-5 h-5 hover:scale-125 transition-all" />
+              <Icon
+                className="w-5 h-5 hover:scale-125 transition-all"
+                onClick={social.label === "Mail" ? handleMailClick : undefined}
+              />
             </Link>
           );
         })}
