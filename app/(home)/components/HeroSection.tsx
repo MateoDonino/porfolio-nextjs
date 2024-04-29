@@ -37,7 +37,7 @@ export default function HeroSection() {
         </div>
         <div className="absolute bottom-5 sm:botton-14 left-0 sm:-left-10">
           <Link
-            href="https://drive.google.com/file/d/14n8EjWS9hZFwx_FHjcGJ4PhQdUJg74A-/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1eSq6WUhzABvOVoRxosGQN53bDHCJbmW-/view?usp=drive_link"
             target="_blank"
           >
             <MovingBorderBtn
