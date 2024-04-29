@@ -9,6 +9,7 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiVite,
+  SiGithub,
 } from "react-icons/si";
 import Title from "./Title";
 import Link from "next/link";
@@ -25,22 +26,25 @@ export default function Projects() {
       cover: "/web1.png",
       background: "bg-slate-900/[0.8]",
       target: "_blank",
+      github: "https://github.com/MateoDonino/dev-challenge-rickymorty",
     },
     {
       title: "Lutin Studio",
       tech: [SiHtml5, SiCss3, SiReact, SiVite, SiBootstrap],
-      link: "https://dev-challenge-rickymorty.vercel.app/",
+      link: "https://lutin-varelacristianfacundo.vercel.app/",
       cover: "/web4.png",
       background: "bg-slate-900/[0.8]",
       target: "_blank",
+      github: "https://github.com/VarelaCristianFacundo/lutin",
     },
     {
       title: "Portfolio Web",
       tech: [SiReact, SiNextdotjs, SiTailwindcss, SiTypescript],
-      link: "https://dev-challenge-rickymorty.vercel.app/",
+      link: "https://porfolio-nextjs-eight.vercel.app/",
       cover: "/web7.png",
       background: "bg-slate-900/[0.8]",
       target: "_blank",
+      github: "https://github.com/MateoDonino/porfolio-nextjs",
     },
   ];
 
@@ -69,6 +73,11 @@ export default function Projects() {
                   </div>
                 </DirectionAwareHover>
               </div>
+              <Link href={project.github} target="_blank">
+                <p className="mt-3 flex flex-row gap-2 text-xl justify-center">
+                  Codigo en GitHub <SiGithub className=" w-5 h-5" />
+                </p>
+              </Link>
             </Link>
           );
         })}
