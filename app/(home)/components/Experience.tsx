@@ -16,7 +16,7 @@ export default function Experience() {
       <ul className=" mt-20 timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
         <li>
           <div className="timeline-middle"></div>
-          <div className="timeline-start mb-10 ">
+          <div className="timeline-start mb-5 ">
             <div className="text-xl font-bold">
               Pasantía en Area Comercial de Movistar Telefonica
             </div>
@@ -40,7 +40,7 @@ export default function Experience() {
         </li>
         <li>
           <hr />
-          <div className="timeline-end mb-10 mt-2">
+          <div className="timeline-end mb-10 mt-5">
             <div className="text-xl font-bold">Desarrollador Web Frontend</div>
             <div className="text-lg text-green-500">LUTIN STUDIOS</div>
             <time className="text-sm">Agosto - Noviembre 2022</time>
