@@ -11,8 +11,9 @@ import {
   SiNextdotjs,
   SiNodedotjs,
   SiReact,
-  SiSqlite,
+  SiVite,
   SiTailwindcss,
+  SiBootstrap,
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 
@@ -35,7 +36,7 @@ export default function Skills() {
       Icon: SiReact,
     },
     {
-      text: "NodeJS",
+      text: "Node.js",
       Icon: SiNodedotjs,
     },
     {
@@ -47,12 +48,20 @@ export default function Skills() {
       Icon: SiMysql,
     },
     {
-      text: "NextJS",
+      text: "Next.js",
       Icon: SiNextdotjs,
+    },
+    {
+      text: "Vite",
+      Icon: SiVite,
     },
     {
       text: "TailwindCSS",
       Icon: SiTailwindcss,
+    },
+    {
+      text: "Bootstrap",
+      Icon: SiBootstrap,
     },
     {
       text: "Github",
