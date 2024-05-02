@@ -40,7 +40,7 @@ export default function Navbar({ className }: { className?: string }) {
       >
         <a
           href="#"
-          className="text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2"
+          className="hover:scale-125 transition-all text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2"
         >
           Portfolio 👩🏻‍💻
         </a>
