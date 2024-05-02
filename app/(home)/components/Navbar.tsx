@@ -21,13 +21,6 @@ export default function Navbar({ className }: { className?: string }) {
       Icon: SiGithub,
       target: "_blank",
     },
-
-    {
-      link: "",
-      label: "Mail",
-      Icon: IoMdMail,
-      target: "",
-    },
   ];
 
   const handleMailClick = () => {

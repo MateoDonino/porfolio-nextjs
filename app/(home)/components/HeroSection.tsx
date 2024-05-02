@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import { MovingBorderBtn } from "../../../components/ui/moving-border";
-import Title from "./Title";
+import { IoMdMail } from "react-icons/io";
 import { motion } from "framer-motion";
 
 export default function HeroSection() {
@@ -13,22 +13,28 @@ export default function HeroSection() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 2.5 }}
       >
-        <div className="space-y-10 text-center lg:text-left">
+        <div className="space-y-8 text-center lg:text-left">
           <h1 className="text-4xl lg:text-7xl font-bold">
             Hola!👋🏻 <br />
             <span className="underline underline-offset-8 decoration-green-500">
               {"Soy Mateo"}
             </span>
           </h1>
+          <div className="ml-9 flex flex-row bg-gray-900 h-10 w-[300px] rounded-[30px]">
+            <span className="flex flex-col justify-center text-white font-bold grow-[1] max-w-[90%] text-center">
+              mateodonino@gmail.com
+            </span>
+            <div className="w-[15%] bg-indigo-500 rounded-r-2xl">
+              <IoMdMail className="w-6 h-6 mt-2 ml-2 " />
+            </div>
+          </div>
           <p className="md:w-96 text-lg text-gray-300">
             {
               "Especializado en el Frontend, utilizando las últimas tecnologías y frameworks disponibles puedo crear sitios y aplicaciones web a medida que se adapten a tus necesidades específicas. Te puedo asesorar en la selección de la mejor tecnología para tu proyecto, analizar los requisitos y planificar el desarrollo. Te invito a que le des un vistazo a mi CV! Ahí podes encontrar todos mis datos, educación y certificaciones."
             }
           </p>
-          <Link
-            href={"mailto:mateodonino@gmail.com"}
-            className="inline-block group"
-          ></Link>
+          <hr className="invisible" />
+          <hr className="invisible" />
         </div>
       </motion.div>
       <motion.div
