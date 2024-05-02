@@ -55,7 +55,7 @@ export default function Navbar({ className }: { className?: string }) {
                 target={social.target}
               >
                 <Icon
-                  className="w-5 h-5 hover:scale-125 transition-all"
+                  className="w-5 h-5 hover:scale-150 transition-all"
                   onClick={
                     social.label === "Mail" ? handleMailClick : undefined
                   }
