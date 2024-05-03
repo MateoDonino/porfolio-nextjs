@@ -2,15 +2,19 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { MovingBorderBtn } from "../../../components/ui/moving-border";
-import { IoMdMail } from "react-icons/io";
 import { motion } from "framer-motion";
-import { CopyToClipboard } from "react-copy-to-clipboard";
 import { GrCopy } from "react-icons/gr";
 export default function HeroSection() {
   const [copied, setCopied] = useState(false);
-  const handleCopy = () => {
-    setCopied(true);
-    setTimeout(() => setCopied(false), 1500);
+
+  const handleCopy = async () => {
+    try {
+      await navigator.clipboard.writeText("mateodonino@gmail.com");
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1500);
+    } catch (error) {
+      console.error("Failed to copy email address:", error);
+    }
   };
 
   return (
@@ -32,13 +36,11 @@ export default function HeroSection() {
               mateodonino@gmail.com
             </span>
             <div className="w-[15%] bg-indigo-600 rounded-r-2xl">
-              <CopyToClipboard text="mateodonino@gmail.com" onCopy={handleCopy}>
-                <div>
-                  <GrCopy className="w-6 h-5 mt-2.5 ml-2 cursor-pointer hover:scale-125 transition-all" />
-                </div>
-              </CopyToClipboard>
+              <div onClick={handleCopy}>
+                <GrCopy className="w-6 h-5 mt-2.5 ml-2 cursor-pointer hover:scale-125 transition-all" />
+              </div>
               {copied && (
-                <p className=" mt-3.5 font-semibold text-green-500">Copiado!</p>
+                <p className="mt-3.5 font-semibold text-green-500">Copiado!</p>
               )}
             </div>
           </div>
