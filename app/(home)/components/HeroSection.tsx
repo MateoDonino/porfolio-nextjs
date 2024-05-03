@@ -4,19 +4,15 @@ import Link from "next/link";
 import { MovingBorderBtn } from "../../../components/ui/moving-border";
 import { IoMdMail } from "react-icons/io";
 import { motion } from "framer-motion";
+import { CopyToClipboard } from "react-copy-to-clipboard";
 
 export default function HeroSection() {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    const email = document.querySelector<HTMLSpanElement>(".email-address");
-    if (email) {
-      navigator.clipboard.writeText(email.textContent || "");
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
-    }
+    setCopied(true);
+    setTimeout(() => setCopied(false), 1500);
   };
-
   return (
     <div className="min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between">
       <motion.div
@@ -35,10 +31,16 @@ export default function HeroSection() {
             <span className="flex flex-col justify-center text-white font-bold grow-[1] max-w-[90%] text-center">
               mateodonino@gmail.com
             </span>
-            <button className="w-[15%] bg-indigo-500 rounded-r-2xl">
-              <IoMdMail onClick={handleCopy} className="w-6 h-6 ml-2" />
-              {copied && <span className="text-green-500">Copied!</span>}
-            </button>
+            <div className="w-[15%] bg-indigo-500 rounded-r-2xl">
+              <CopyToClipboard text="mateodonino@gmail.com" onCopy={handleCopy}>
+                <div>
+                  <IoMdMail className="w-6 h-6 mt-2 ml-2 cursor-pointer" />
+                </div>
+              </CopyToClipboard>
+              {copied && (
+                <p className=" mt-3 font-semibold text-green-500">Copiado!</p>
+              )}
+            </div>
           </div>
           <p className="md:w-96 text-lg text-gray-300">
             {
