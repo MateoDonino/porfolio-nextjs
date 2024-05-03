@@ -5,14 +5,14 @@ import { MovingBorderBtn } from "../../../components/ui/moving-border";
 import { IoMdMail } from "react-icons/io";
 import { motion } from "framer-motion";
 import { CopyToClipboard } from "react-copy-to-clipboard";
-
+import { GrCopy } from "react-icons/gr";
 export default function HeroSection() {
   const [copied, setCopied] = useState(false);
-
   const handleCopy = () => {
     setCopied(true);
     setTimeout(() => setCopied(false), 1500);
   };
+
   return (
     <div className="min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between">
       <motion.div
@@ -28,17 +28,17 @@ export default function HeroSection() {
             </span>
           </h1>
           <div className="ml-9 flex flex-row bg-gray-900 h-10 w-[300px] rounded-[30px]">
-            <span className="flex flex-col justify-center text-white font-bold grow-[1] max-w-[90%] text-center">
+            <span className="flex flex-col justify-center text-white grow-[1] max-w-[90%] text-center">
               mateodonino@gmail.com
             </span>
-            <div className="w-[15%] bg-indigo-500 rounded-r-2xl">
+            <div className="w-[15%] bg-indigo-600 rounded-r-2xl">
               <CopyToClipboard text="mateodonino@gmail.com" onCopy={handleCopy}>
                 <div>
-                  <IoMdMail className="w-6 h-6 mt-2 ml-2 cursor-pointer" />
+                  <GrCopy className="w-6 h-5 mt-2.5 ml-2 cursor-pointer hover:scale-125 transition-all" />
                 </div>
               </CopyToClipboard>
               {copied && (
-                <p className=" mt-3 font-semibold text-green-500">Copiado!</p>
+                <p className=" mt-3.5 font-semibold text-green-500">Copiado!</p>
               )}
             </div>
           </div>
