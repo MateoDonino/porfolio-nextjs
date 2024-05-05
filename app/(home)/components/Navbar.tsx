@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
-import { SiGithub, SiLinkedin, SiGmail } from "react-icons/si";
-import { IoMdMail } from "react-icons/io";
+import { SiGithub, SiLinkedin } from "react-icons/si";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
@@ -22,12 +21,6 @@ export default function Navbar({ className }: { className?: string }) {
       target: "_blank",
     },
   ];
-
-  const handleMailClick = () => {
-    const email = "mateodonino@gmail.com";
-    const message = `Ponete en contacto conmigo a travez de mi correo electrónico: ${email}`;
-    alert(message);
-  };
 
   return (
     <motion.div
@@ -54,12 +47,7 @@ export default function Navbar({ className }: { className?: string }) {
                 aria-label={social.label}
                 target={social.target}
               >
-                <Icon
-                  className="w-5 h-5 hover:scale-150 transition-all"
-                  onClick={
-                    social.label === "Mail" ? handleMailClick : undefined
-                  }
-                />
+                <Icon className="w-5 h-5 hover:scale-150 transition-all" />
               </Link>
             );
           })}
