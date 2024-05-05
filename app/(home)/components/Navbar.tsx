@@ -15,7 +15,7 @@ export default function Navbar({ className }: { className?: string }) {
     },
 
     {
-      link: "https://github.com/MateoDonino",
+      link: "https://github.com/MateoDonino?tab=overview&from=2024-05-01&to=2024-05-05",
       label: "Github",
       Icon: SiGithub,
       target: "_blank",
