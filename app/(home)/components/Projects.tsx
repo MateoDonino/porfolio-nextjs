@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import {
   SiBootstrap,
@@ -77,35 +76,31 @@ export default function Projects() {
       <div className="grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5">
         {projects.map((project, index) => {
           return (
-            <div>
-              <div>
-                <Link href={project.link} key={index} target={project.target}>
-                  <div className={cn("p-2 rounded-2xl", project.background)}>
-                    <DirectionAwareHover
-                      imageUrl={project.cover}
-                      className="w-full space-y-5 cursor-pointer"
-                    >
-                      <div className="space-y-5 bg-black bg-opacity-85 p-5 rounded-lg">
-                        <h1 className="text-2xl font-bold">{project.title}</h1>
-                        <div className="flex items-center gap-5">
-                          {project.tech.map((Icon, index) => {
-                            return <Icon className="w-8 h-8" key={index} />;
-                          })}
-                        </div>
-                      </div>
-                    </DirectionAwareHover>
+            <Link href={project.link} key={index} target={project.target}>
+              <div className={cn("p-2 rounded-2xl", project.background)}>
+                <DirectionAwareHover
+                  imageUrl={project.cover}
+                  className="w-full space-y-5 cursor-pointer"
+                >
+                  <div className="space-y-5 bg-black bg-opacity-85 p-5 rounded-lg">
+                    <h1 className="text-2xl font-bold">{project.title}</h1>
+                    <div className="flex items-center gap-5">
+                      {project.tech.map((Icon, index) => {
+                        return <Icon className="w-8 h-8" key={index} />;
+                      })}
+                    </div>
                   </div>
-                </Link>
+                </DirectionAwareHover>
               </div>
+
               <div className="text-center mt-2">{project.description}</div>
-              <div>
-                <Link href={project.github} target="_blank">
-                  <p className="mt-3 flex flex-row gap-2 text-xl justify-center hover:text-green-500">
-                    Codigo en GitHub <SiGithub className="mt-1 w-5 h-5" />
-                  </p>
-                </Link>
-              </div>
-            </div>
+
+              <Link href={project.github} target="_blank">
+                <p className="mt-3 flex flex-row gap-2 text-xl justify-center hover:text-green-500">
+                  Codigo en GitHub <SiGithub className="mt-1 w-5 h-5" />
+                </p>
+              </Link>
+            </Link>
           );
         })}
       </div>
