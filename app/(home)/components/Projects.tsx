@@ -78,23 +78,25 @@ export default function Projects() {
         {projects.map((project, index) => {
           return (
             <div>
-              <Link href={project.link} key={index} target={project.target}>
-                <div className={cn("p-2 rounded-2xl", project.background)}>
-                  <DirectionAwareHover
-                    imageUrl={project.cover}
-                    className="w-full space-y-5 cursor-pointer"
-                  >
-                    <div className="space-y-5 bg-black bg-opacity-85 p-5 rounded-lg">
-                      <h1 className="text-2xl font-bold">{project.title}</h1>
-                      <div className="flex items-center gap-5">
-                        {project.tech.map((Icon, index) => {
-                          return <Icon className="w-8 h-8" key={index} />;
-                        })}
+              <div>
+                <Link href={project.link} key={index} target={project.target}>
+                  <div className={cn("p-2 rounded-2xl", project.background)}>
+                    <DirectionAwareHover
+                      imageUrl={project.cover}
+                      className="w-full space-y-5 cursor-pointer"
+                    >
+                      <div className="space-y-5 bg-black bg-opacity-85 p-5 rounded-lg">
+                        <h1 className="text-2xl font-bold">{project.title}</h1>
+                        <div className="flex items-center gap-5">
+                          {project.tech.map((Icon, index) => {
+                            return <Icon className="w-8 h-8" key={index} />;
+                          })}
+                        </div>
                       </div>
-                    </div>
-                  </DirectionAwareHover>
-                </div>
-              </Link>
+                    </DirectionAwareHover>
+                  </div>
+                </Link>
+              </div>
               <div className="text-center mt-2">{project.description}</div>
               <div>
                 <Link href={project.github} target="_blank">
