@@ -77,7 +77,12 @@ export default function Projects() {
         {projects.map((project, index) => {
           return (
             <Link href={project.link} key={index} target={project.target}>
-              <div className={cn("p-2 rounded-2xl", project.background)}>
+              <div
+                className={cn(
+                  "p-2 rounded-2xl border-double border-8 border-black",
+                  project.background
+                )}
+              >
                 <DirectionAwareHover
                   imageUrl={project.cover}
                   className="w-full space-y-5 cursor-pointer"
@@ -93,7 +98,9 @@ export default function Projects() {
                 </DirectionAwareHover>
               </div>
 
-              <div className="text-center mt-2">{project.description}</div>
+              <div className="text-center mt-2 cursor-default">
+                {project.description}
+              </div>
 
               <Link href={project.github} target="_blank">
                 <p className="mt-3 flex flex-row gap-2 text-xl justify-center hover:text-green-500">
