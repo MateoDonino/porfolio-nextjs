@@ -24,7 +24,7 @@ export default function Projects() {
     {
       title: "Api Rick and Morty",
       description:
-        "Api de Rick and Morty que permite a los usuarios buscar y visualizar informacion sobre los personajes. Consta de un campo busqueda y 3 filtros, como asi tambien poder borrarlos y resetear la busqueda, desplegada en Vercel.",
+        "Api de Rick and Morty que permite a los usuarios buscar y visualizar informacion sobre los personajes. Consta de un campo busqueda y 3 filtros, como asi tambien poder borrarlos y resetear la busqueda. Esta desarrollada con React, Vite, Tailwindcss y Graphql, desplegada en Vercel.",
       tech: [SiReact, SiVite, SiTailwindcss, SiGraphql],
       link: "https://dev-challenge-rickymorty.vercel.app/",
       cover: "/web1.png",
@@ -35,7 +35,7 @@ export default function Projects() {
     {
       title: "Lutin Studio",
       description:
-        "Proyecto como Freelance, cración de una Página Web sobre la promoción de NFT (tokens no fungibles) para un cliente de Chile. El equipo consistió de dos Diseñadores Gráficos y dos Desarrolladores Web. Desplegada en Vercel.",
+        "Proyecto como Freelance, cración de una Página Web sobre la promoción de NFT (tokens no fungibles) para un cliente de Chile. El equipo consistió de dos Diseñadores Gráficos y dos Desarrolladores Web. Desarrollado con Html5, Css3, React, Vite y Bootstrap, desplegada en Vercel.",
       tech: [SiHtml5, SiCss3, SiReact, SiVite, SiBootstrap],
       link: "https://lutin-varelacristianfacundo.vercel.app/",
       cover: "/web4.png",
@@ -46,7 +46,7 @@ export default function Projects() {
     {
       title: "Aplicación Node.js",
       description:
-        "Aplicación Web simple con NodeJS, la cual nos permite ir de pagina en pagina, la interfaz es ligera y rapida, y está diseñada para usuarios que buscan una navegacion eficaz y sencilla, desplegada en Render.",
+        "Aplicación Web simple con NodeJS, la cual nos permite ir de pagina en pagina, la interfaz es ligera y rapida, y está diseñada para usuarios que buscan una navegacion eficaz y sencilla. Programado con Javascript, NodeJS y CSS3, desplegada en Render.",
       tech: [SiJavascript, SiNodedotjs, SiCss3],
       link: "https://nodejs-project-chyw.onrender.com/",
       cover: "/web2.png",
@@ -57,7 +57,7 @@ export default function Projects() {
     {
       title: "Portfolio Web",
       description:
-        "Si, este mismo proyecto. Portfolio Web con mi resumen, donde se pueden encontrar mis proyectos, como tambien el poder interactuar para poder descargar mi CV, ir a mi LinkedIn, Github y más. Desplegada en Vercel.",
+        "Si, este mismo proyecto. Portfolio Web con mi resumen, donde se pueden encontrar mis proyectos, como tambien el poder interactuar para poder descargar mi CV, ir a mi LinkedIn, Github y más. Desarrollado con React, Next.js,Typescript y Tailwindcss, desplegada en Vercel.",
       tech: [SiReact, SiNextdotjs, SiTailwindcss, SiTypescript],
       link: "https://porfolio-nextjs-eight.vercel.app/",
       cover: "/web7.png",
