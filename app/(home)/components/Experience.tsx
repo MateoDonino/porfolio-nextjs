@@ -72,7 +72,7 @@ export default function Experience() {
                 target="_blank"
                 className=" mt-3 flex gap-2 items-center"
               >
-                <li>Página Web.</li>
+                <li className="cursor-default">Página Web.</li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -91,9 +91,9 @@ export default function Experience() {
               <Link
                 href="https://github.com/VarelaCristianFacundo/lutin"
                 target="_blank"
-                className=" mt-1 flex gap-2 items-center"
+                className=" mt-1 flex gap-2 items-center "
               >
-                <li>Código Github.</li>
+                <li className="cursor-default">Código Github.</li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

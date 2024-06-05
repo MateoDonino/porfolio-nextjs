@@ -103,7 +103,7 @@ export default function Projects() {
               </div>
 
               <Link href={project.github} target="_blank">
-                <p className="mt-3 flex flex-row gap-2 text-xl justify-center hover:text-green-500">
+                <p className="mt-3 flex flex-row gap-2 text-xl justify-center hover:text-green-500 hover:scale-110 transition-all">
                   Codigo en GitHub <SiGithub className="mt-1 w-5 h-5" />
                 </p>
               </Link>
