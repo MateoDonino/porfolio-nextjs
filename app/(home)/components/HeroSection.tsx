@@ -4,6 +4,8 @@ import Link from "next/link";
 import { MovingBorderBtn } from "../../../components/ui/moving-border";
 import { motion } from "framer-motion";
 import { GrCopy } from "react-icons/gr";
+import { TypeAnimation } from "react-type-animation";
+
 export default function HeroSection() {
   const [copied, setCopied] = useState(false);
 
@@ -22,7 +24,7 @@ export default function HeroSection() {
       <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 2.5 }}
+        transition={{ duration: 3 }}
       >
         <div className="space-y-8 text-center lg:text-left">
           <h1 className="text-4xl lg:text-7xl font-bold">
@@ -54,14 +56,17 @@ export default function HeroSection() {
             </div>
           </motion.div>
 
-          <motion.div>
-            <p className="md:w-96 text-lg text-gray-300">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 3 }}
+          >
+            <p className="md:w-96 text-lg text-gray-300 hover:scale-110 transition-all">
               {
                 "Soy Desarrollador Web, especializado en el Front End, utilizando las últimas tecnologías y frameworks disponibles puedo crear sitios y aplicaciones web a medida que se adapten a tus necesidades específicas. Te puedo asesorar en la selección de la mejor tecnología para tu proyecto, analizar los requisitos y planificar el desarrollo. Te invito a que le des un vistazo a mi CV! Ahí podes encontrar todos mis datos, educación y certificaciones."
               }
             </p>
           </motion.div>
-
           <hr className="invisible" />
           <hr className="invisible" />
         </div>
