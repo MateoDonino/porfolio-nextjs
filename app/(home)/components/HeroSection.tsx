@@ -61,7 +61,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 3 }}
           >
-            <p className="md:w-96 text-lg text-gray-300 hover:scale-110 transition-all">
+            <p className="md:w-96 text-lg text-gray-300">
               {
                 "Soy Desarrollador Web, especializado en el Front End, utilizando las últimas tecnologías y frameworks disponibles puedo crear sitios y aplicaciones web a medida que se adapten a tus necesidades específicas. Te puedo asesorar en la selección de la mejor tecnología para tu proyecto, analizar los requisitos y planificar el desarrollo. Te invito a que le des un vistazo a mi CV! Ahí podes encontrar todos mis datos, educación y certificaciones."
               }
