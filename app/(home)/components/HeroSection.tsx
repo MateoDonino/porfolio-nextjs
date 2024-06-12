@@ -4,6 +4,7 @@ import Link from "next/link";
 import { MovingBorderBtn } from "../../../components/ui/moving-border";
 import { motion } from "framer-motion";
 import { GrCopy } from "react-icons/gr";
+import { TypeAnimation } from "react-type-animation";
 
 export default function HeroSection() {
   const [copied, setCopied] = useState(false);
@@ -27,30 +28,31 @@ export default function HeroSection() {
             {"Soy Mateo"}
           </span>
         </h1>{" "}
-        <div className="ml-9 flex flex-row bg-gray-900 h-10 w-[300px] rounded-[30px]">
-          <span className="flex flex-col justify-center text-white grow-[1] max-w-[90%] text-center">
-            mateodonino@gmail.com
-          </span>
-          <div className="w-[15%] bg-indigo-600 rounded-r-2xl">
-            <div onClick={handleCopy}>
-              <GrCopy className="w-6 h-5 mt-2.5 ml-2 cursor-pointer hover:scale-125 transition-all" />
-            </div>
-            {copied && (
-              <p className="mt-3.5 font-semibold text-green-500">Copiado!</p>
-            )}
-          </div>
-        </div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 3 }}
         >
-          <p className="md:w-96 text-lg text-gray-300">
-            {
-              "Soy Desarrollador Web, especializado en el Front End, utilizando las últimas tecnologías y frameworks disponibles puedo crear sitios y aplicaciones web a medida que se adapten a tus necesidades específicas. Te puedo asesorar en la selección de la mejor tecnología para tu proyecto, analizar los requisitos y planificar el desarrollo. Te invito a que le des un vistazo a mi CV! Ahí podes encontrar todos mis datos, educación y certificaciones."
-            }
-          </p>
+          <div className="ml-9 flex flex-row bg-gray-900 h-10 w-[300px] rounded-[30px]">
+            <span className="flex flex-col justify-center text-white grow-[1] max-w-[90%] text-center">
+              mateodonino@gmail.com
+            </span>
+
+            <div className="w-[15%] bg-indigo-600 rounded-r-2xl">
+              <div onClick={handleCopy}>
+                <GrCopy className="w-6 h-5 mt-2.5 ml-2 cursor-pointer hover:scale-125 transition-all" />
+              </div>
+              {copied && (
+                <p className="mt-3.5 font-semibold text-green-500">Copiado!</p>
+              )}
+            </div>
+          </div>
         </motion.div>
+        <p className="md:w-96 text-lg text-gray-300">
+          {
+            "Soy Desarrollador Web, especializado en el Front End, utilizando las últimas tecnologías y frameworks disponibles puedo crear sitios y aplicaciones web a medida que se adapten a tus necesidades específicas. Te puedo asesorar en la selección de la mejor tecnología para tu proyecto, analizar los requisitos y planificar el desarrollo. Te invito a que le des un vistazo a mi CV! Ahí podes encontrar todos mis datos, educación y certificaciones."
+          }
+        </p>
         <hr className="invisible" />
         <hr className="invisible" />
       </div>
