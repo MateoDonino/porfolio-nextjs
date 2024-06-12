@@ -11,6 +11,8 @@
   "dependencies": {
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "flowbite": "^2.3.0",
+    "flowbite-react": "^0.9.0",
     "framer-motion": "^11.1.7",
     "lucide-react": "^0.376.0",
     "mini-svg-data-uri": "^1.4.4",
