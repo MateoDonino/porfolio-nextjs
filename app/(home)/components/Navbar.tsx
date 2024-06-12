@@ -37,6 +37,26 @@ export default function Navbar({ className }: { className?: string }) {
         >
           Portfolio 👩🏻‍💻
         </a>
+        <div className="flex justify-center items-center gap-5 rounded-full ">
+          <Link
+            href="#experience"
+            className="hover:scale-110 transition-all hover:text-green-500 text-md font-bold underline underline-offset-8 decoration-gray-500 "
+          >
+            Experiencia
+          </Link>
+          <Link
+            href="#skills"
+            className="hover:scale-110 transition-all hover:text-indigo-500 text-md font-bold underline underline-offset-8 decoration-gray-500"
+          >
+            Skills
+          </Link>
+          <Link
+            href="#projects"
+            className="hover:scale-110 transition-all hover:text-green-500 text-md font-bold underline underline-offset-8 decoration-gray-500"
+          >
+            Proyectos
+          </Link>
+        </div>
         <div className="flex items-center gap-5">
           {socials.map((social, index) => {
             const Icon = social.Icon;

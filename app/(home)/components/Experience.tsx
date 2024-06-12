@@ -6,7 +6,7 @@ import Title from "./Title";
 
 export default function Experience() {
   return (
-    <section>
+    <section id="experience">
       <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}

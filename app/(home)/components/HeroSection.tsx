@@ -4,7 +4,6 @@ import Link from "next/link";
 import { MovingBorderBtn } from "../../../components/ui/moving-border";
 import { motion } from "framer-motion";
 import { GrCopy } from "react-icons/gr";
-import { TypeAnimation } from "react-type-animation";
 
 export default function HeroSection() {
   const [copied, setCopied] = useState(false);
