@@ -98,7 +98,7 @@ export default function Projects() {
                 </DirectionAwareHover>
               </div>
 
-              <div className="text-center mt-2 cursor-default">
+              <div className="text-center text-[17px] mt-2 cursor-default">
                 {project.description}
               </div>
 

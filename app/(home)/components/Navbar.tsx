@@ -29,7 +29,10 @@ export default function Navbar({ className }: { className?: string }) {
       transition={{ duration: 3 }}
     >
       <nav
-        className={cn(" py-10 flex justify-between items-center", className)}
+        className={cn(
+          " py-10 flex justify-between items-center flex-col sm:flex-row",
+          className
+        )}
       >
         <a
           href="#"
@@ -37,7 +40,7 @@ export default function Navbar({ className }: { className?: string }) {
         >
           Portfolio 👩🏻‍💻
         </a>
-        <div className="flex justify-center items-center gap-12">
+        <div className="py-3 flex justify-center items-center gap-12">
           <Link
             href="#experience"
             className="hover:scale-110 transition-all hover:text-green-500 text-lg font-bold  decoration-gray-500 "
@@ -57,7 +60,7 @@ export default function Navbar({ className }: { className?: string }) {
             Proyectos
           </Link>
         </div>
-        <div className="flex items-center gap-5">
+        <div className="flex items-center gap-5 py-2 sm:flex-row">
           {socials.map((social, index) => {
             const Icon = social.Icon;
             return (

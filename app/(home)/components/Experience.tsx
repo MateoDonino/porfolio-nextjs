@@ -24,12 +24,12 @@ export default function Experience() {
           <li>
             <div className="timeline-middle"></div>
             <div className="timeline-start mb-5 ">
-              <div className="text-xl font-bold">
+              <div className="text-2xl font-bold">
                 Pasantía en Area Comercial de Movistar Telefonica
               </div>
-              <div className="text-lg text-green-500">MOVISTAR TELEFÓNICA</div>
+              <div className="text-xl text-green-500">MOVISTAR TELEFÓNICA</div>
               <time className="text-sm">Enero - Junio 2019</time>
-              <div className="text-[#ADB7BE] text-justify">
+              <div className="text-[#ADB7BE] text-lg text-justify">
                 <p className=" mt-1 ">
                   · Estuve a cargo de la supervisión y control de stock en los
                   distintos puntos fisicos de venta de la ciudad de Santa Fe.
@@ -48,12 +48,12 @@ export default function Experience() {
           <li>
             <hr />
             <div className="timeline-end mb-10 mt-5">
-              <div className="text-xl font-bold">
+              <div className="text-2xl font-bold">
                 Desarrollador Web Frontend
               </div>
-              <div className="text-lg text-green-500">LUTIN STUDIOS</div>
+              <div className="text-xl text-green-500">LUTIN STUDIOS</div>
               <time className="text-sm">Agosto - Noviembre 2022</time>
-              <div className="text-[#ADB7BE] text-justify">
+              <div className="text-[#ADB7BE] text-lg text-justify">
                 <p className="mt-1">
                   · Colaboré en un proyecto Freelance para un cliente de Chile.
                   Consistió en la creación de una Página Web de promoción de NFT
