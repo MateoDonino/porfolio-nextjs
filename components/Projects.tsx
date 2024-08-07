@@ -26,7 +26,7 @@ export default function Projects() {
     {
       title: "Api Rick and Morty",
       description:
-        "This project, developed as part of a development challenge, utilizes the Rick and Morty API to allow users to search for and view information about characters. The app includes a search field and three filters, with options to delete them and reset the search. Built with React, Vite, GraphQL, and TailwindCSS, the application offers a modern and responsive user interface. The project is deployed on Netlify for fast and efficient access.",
+        "En este proyecto, hice un llamado a la API de Rick and Morty para permitir a los usuarios buscar y ver información sobre los personajes. La app incluye un campo de búsqueda y tres filtros, con opciones para eliminarlos y reiniciar la búsqueda. Está programado con React, Vite, GraphQL y TailwindCSS, la aplicación ofrece una interfaz de usuario moderna y responsiva. El proyecto está desplegado en Netlify para un acceso rápido y eficiente.",
       tech: [SiReact, SiVite, SiTailwindcss, SiGraphql],
       link: "https://api-rickmorty-vite.netlify.app/",
       cover: "/web13.png",
@@ -37,7 +37,7 @@ export default function Projects() {
     {
       title: "React Native Expo App",
       description:
-        "This project, developed with React Native and Expo, utilizes the Metacritic API to display the highest-rated games. The app features dynamic routes and simple navigation, providing a smooth and enjoyable user experience. The user interface is designed with TailwindCSS, ensuring a modern and adaptive design.",
+        "Este proyecto, desarrollado con React Native y Expo, consumí la API de Metacritic para mostrar los juegos mejor puntuados. La app cuenta con rutas dinámicas y una navegación sencilla, brindando una experiencia de usuario fluida y agradable. La interfaz de usuario está diseñada con TailwindCSS, asegurando un diseño moderno y adaptable.",
       tech: [TbBrandReactNative, SiExpo, SiTailwindcss],
       link: "https://github.com/MateoDonino/react-native-app",
       cover: "/web12.png",
@@ -48,7 +48,7 @@ export default function Projects() {
     {
       title: "Lutin Studio",
       description:
-        "This project, developed as a freelance assignment, involved creating a website promoting NFTs (non-fungible tokens) for a client from Chile. The development team comprised two Web Developers and two Graphic Designers UX/UI, working collaboratively to achieve a modern and engaging design. The website is built using HTML5, CSS, React, Vite, and Bootstrap, ensuring responsiveness and user-friendliness. The project is hosted on Vercel for optimal performance and accessibility",
+        "Este proyecto, desarrollado como parte de la experiencia laboral, implicó la creación de un sitio web para promocionar NFTs (tokens no fungibles) para un cliente de Chile. La app cuenta con una interfaz moderna y atractiva, asegurando responsividad y facilidad de uso. Construido con HTML5, CSS, React, Vite y Bootstrap, el sitio web ofrece una experiencia de usuario fluida. El proyecto está alojado en Vercel para un rendimiento y accesibilidad óptimos.",
       tech: [SiHtml5, SiCss3, SiReact, SiVite, SiBootstrap],
       link: "https://lutin-varelacristianfacundo.vercel.app/",
       cover: "/web14.png",
@@ -59,7 +59,7 @@ export default function Projects() {
     {
       title: "Node.js Aplication",
       description:
-        "This is a practical example or tutorial of Node.js (JavaScript on the server) where we will create a simple web application to understand how to install modules like Express.js and how to use it to build multi-page applications. We will also learn to add CSS styles and frameworks like Bootstrap 5 by serving static files. This tutorial will cover best practices for structuring your application and managing dependencies.",
+        "Este es un ejemplo práctico de Node.js (JavaScript en el servidor) donde creé una aplicación web simple para entender cómo instalar módulos como Express.js y cómo usarlo para construir aplicaciones multipágina. También agregué estilos CSS y frameworks como Bootstrap 5 sirviendo archivos estáticos. En este proyecto, cubrí las mejores prácticas para estructurar la aplicación y gestionar dependencias.",
       tech: [SiJavascript, SiCss3, SiNodedotjs],
       link: "https://nodejs-project-chyw.onrender.com/",
       cover: "/web15.png",
