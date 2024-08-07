@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef } from "react";
 import Title from "./Title";
-import { HoverEffect } from "../../../components/ui/card-hover-effect";
+import { HoverEffect } from "../components/ui/card-hover-effect";
 import {
   SiCss3,
   SiGithub,
@@ -14,8 +14,10 @@ import {
   SiVite,
   SiTailwindcss,
   SiBootstrap,
+  SiExpo,
+  SiTypescript,
 } from "react-icons/si";
-import { FaJava } from "react-icons/fa";
+import { TbBrandReactNative } from "react-icons/tb";
 
 export default function Skills() {
   const skills = [
@@ -32,20 +34,21 @@ export default function Skills() {
       Icon: SiJavascript,
     },
     {
-      text: "ReactJS",
+      text: "React",
       Icon: SiReact,
+    },
+    {
+      text: "React Native",
+      Icon: TbBrandReactNative,
     },
     {
       text: "Node.js",
       Icon: SiNodedotjs,
     },
+
     {
-      text: "Java",
-      Icon: FaJava,
-    },
-    {
-      text: "MySQL ",
-      Icon: SiMysql,
+      text: "Typescript",
+      Icon: SiTypescript,
     },
     {
       text: "Next.js",
@@ -60,8 +63,8 @@ export default function Skills() {
       Icon: SiTailwindcss,
     },
     {
-      text: "Bootstrap",
-      Icon: SiBootstrap,
+      text: "Expo",
+      Icon: SiExpo,
     },
     {
       text: "Github",
@@ -69,13 +72,13 @@ export default function Skills() {
     },
   ];
   return (
-    <div id="skills" className=" max-w-5xl mx-auto px-8">
+    <section id="skills" className="max-w-5xl mx-auto px-8">
       <Title
         text={"Skills 🎓"}
         className="flex flex-col items-center justify-center -rotate-6"
       />
 
       <HoverEffect items={skills} />
-    </div>
+    </section>
   );
 }
