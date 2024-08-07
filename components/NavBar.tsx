@@ -43,7 +43,7 @@ export default function Navbar({ className }: { className?: string }) {
               href="#experience"
               className="hover:scale-110 transition-all hover:text-green-500 text-lg font-bold  decoration-gray-500 "
             >
-              Experience
+              Expereriencia
             </Link>
             <Link
               href="#skills"
@@ -55,7 +55,7 @@ export default function Navbar({ className }: { className?: string }) {
               href="#projects"
               className="hover:scale-110 transition-all hover:text-green-500 text-lg font-bold  decoration-gray-500"
             >
-              Projects
+              Proyectos
             </Link>
           </div>
           <div className="flex items-center gap-5 py-2 sm:flex-row">

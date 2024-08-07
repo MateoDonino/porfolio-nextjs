@@ -18,17 +18,17 @@ export default function HeroSection() {
   };
 
   const text =
-    "I am a passionate Web Developer with experience in creating robust and scalable web applications. I have advanced skills in technologies such as JavaScript, React, Node.js, TypeScript, and more. My specialization is in Front End development, where I focus on delivering efficient and high-quality solutions. ".split(
+    "Desarrollador Web, apasionado con experiencia en la creación de aplicaciones eficientes y de calidad. Manejo tecnologías como JavaScript, React, Node.js, TypeScript, entre otras muchas más. Mi especialización es en el Front End, enfocándome en entregar soluciones eficientes y de alta calidad, trabajando de manera colaborativa en entornos ágiles.".split(
       " "
     );
 
   const text2 =
-    "My approach involves understanding your specific needs and translating them into functional, user-friendly applications. I stay updated with the latest industry trends and continuously improve my skill set to provide innovative and effective solutions.".split(
+    "Me gusta entender tus necesidades y convertirlas en aplicaciones funcionales y fáciles de usar. Estoy siempre al tanto de las últimas tendencias del sector y mejoro constantemente mis habilidades para ofrecer soluciones innovadoras y efectivas.".split(
       " "
     );
 
   const text3 =
-    "Take a look at my CV for detailed information about my background, education, and certifications. I look forward to collaborating with you to bring your project to life!".split(
+    "Podés ver mi CV para más información sobre mi experiencia, educación y certificaciones. ¡Espero poder trabajar con vos y hacer realidad tu proyecto!".split(
       " "
     );
 
@@ -37,11 +37,11 @@ export default function HeroSection() {
 
   return (
     <section className="min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between mt-10">
-      <div className="space-y-12 text-center lg:text-left">
+      <div className="space-y-8 text-center lg:text-left">
         <h1 className=" text-3xl md:text-5xl font-bold ">
-          Hi! Nice to meet you 👋🏻 <br />
+          Hola! Me presento 👋🏻 <br />
           <span className="underline underline-offset-8 decoration-green-500">
-            {"I'm Mateo"}
+            {"Soy Mateo"}
           </span>
         </h1>
 
@@ -121,14 +121,14 @@ export default function HeroSection() {
           </div>
           <div className="absolute bottom-5 sm:botton-14 left-0 sm:-left-10 hover:scale-110 transition-all">
             <Link
-              href="https://drive.google.com/file/d/1Fq-asBZZY-5LeDRznDsqoW8MzmVLHhi3/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1eEaOojsBuLTOyHMNaPZFNjLovGcnHqxk/view?usp=drive_link"
               target="_blank"
             >
               <MovingBorderBtn
                 borderRadius="0.5rem"
                 className="p-3 font-semibold"
               >
-                <p>📑 Check out my CV!</p>
+                <p>📑 Chequea mi CV!</p>
               </MovingBorderBtn>
             </Link>
           </div>

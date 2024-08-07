@@ -72,7 +72,7 @@ export default function Projects() {
   return (
     <section id="projects" className="flex flex-col items-center">
       <Title
-        text={"Projects 🗂️"}
+        text={"Proyectos 🗂️"}
         className="flex flex-col items-center justify-center rotate-6"
       />
       <div className="grid grid-cols-1 sm:grid-cols-2 pt-10 gap-5">

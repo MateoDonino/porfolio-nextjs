@@ -46,7 +46,7 @@ const ShinyButton = () => {
             clipRule="evenodd"
           />
         </svg>
-        GitHub Repository
+        Repositorio GitHub
       </span>
       <span className="block absolute inset-0 rounded-md p-px linear-overlay" />
     </motion.button>
@@ -80,7 +80,7 @@ const ShinyButton2 = () => {
     >
       <span className="text-neutral-100 inline-flex tracking-wide font-light h-full w-full relative linear-mask">
         <TfiWorld className="mt-0.5 w-4 h-4 me-2" />
-        Web Page
+        Página Web
       </span>
       <span className="block absolute inset-0 rounded-md p-px linear-overlay" />
     </motion.button>

@@ -10,7 +10,7 @@ export default function Experience() {
       {" "}
       <div className="max-w-7xl mx-auto px-8">
         <Title
-          text={"Experience 💼"}
+          text={"Experiencia 💼"}
           className="flex flex-col items-center justify-center rotate-6"
         />
       </div>
@@ -20,28 +20,29 @@ export default function Experience() {
             {" "}
             <div className="timeline-start mb-5 ">
               <div className="text-2xl font-bold">
-                Internship in the Commercial Area of Movistar Telefónica
+                Pasantía en el Área Comercial de Movistar Telefónica
               </div>
               <div className="text-lg text-green-500">MOVISTAR TELEFÓNICA</div>
-              <time className="text-sm">January - June 2019</time>
+              <time className="text-sm">Enero - Junio 2019</time>
               <div className="text-[#ADB7BE] text-md text-justify">
                 <p className=" mt-1 ">
-                  · I was in charge of supervising and controlling stock at
-                  various physical sales points in the city of Santa Fe.
+                  · Estuve a cargo de supervisar y controlar el stock en varios
+                  puntos de venta físicos en la ciudad de Santa Fe.
                 </p>
                 <p className=" mt-2">
-                  · Efficient teamwork, responsibility, and excellent
-                  communication.
+                  · Trabajo en equipo eficiente, responsabilidad y excelente
+                  comunicación.
                 </p>
 
                 <p className=" mt-2">
-                  · Worked closely with cross-functional teams to ensure
-                  alignment on objectives and deliverables.
+                  · Trabajé en estrecha colaboración con equipos
+                  multifuncionales para asegurar la alineación en objetivos y
+                  entregables.
                 </p>
                 <p className=" mt-2">
-                  · Participated in regular team meetings to discuss goals,
-                  progress, and challenges, fostering a collaborative
-                  environment.
+                  · Participé en reuniones regulares de equipo para discutir
+                  metas, progreso y desafíos, fomentando un ambiente
+                  colaborativo.
                 </p>
               </div>
             </div>
@@ -52,33 +53,37 @@ export default function Experience() {
         <li>
           <hr />
           <div className="timeline-end mb-10 mt-5">
-            <div className="text-2xl font-bold">Frontend Web Developer</div>
+            <div className="text-2xl font-bold">
+              Desarrollador Web Front End
+            </div>
             <div className="text-lg text-green-500">LUTIN STUDIOS</div>
-            <time className="text-sm">August - November 2022</time>
+            <time className="text-sm">Agosto - Noviembre 2022</time>
             <div className="text-[#ADB7BE] text-md text-justify border-l-green-500 ">
               <p className="mt-1">
-                · I collaborated on a Freelance project for a client from Chile.
-                It involved creating a promotional NFT (Non-Fungible Tokens)
-                Website.
+                · Colaboré en un proyecto Freelance para un cliente de Chile,
+                que consistió en la creación de un sitio web promocional de NFTs
+                (Tokens No Fungibles).
               </p>
               <p className="mt-2">
-                · Development and design of the user interface using
-                technologies such as HTML, CSS, ReactJS, and Bootstrap.
+                · Desarrollo y diseño de la interfaz de usuario utilizando
+                tecnologías como HTML, CSS, ReactJS y Bootstrap.
               </p>
               <p className="mt-2">
-                · The teamwork consisted of two Graphic Designers and two Web
-                Developers. Excellent communication and collaboration.
+                · El equipo de trabajo estaba compuesto por dos Diseñadores
+                Gráficos y dos Desarrolladores Web. Excelente comunicación y
+                colaboración.
               </p>
               <p className="mt-2">
-                · Effective Communication. Throughout the project, I maintained
-                open channels of communication with my team members. We
-                regularly discussed progress, challenges, and ideas, ensuring
-                everyone was on the same page.
+                · Buena comunicación efectiva, a lo largo del proyecto, mantuve
+                canales abiertos de comunicación con mis compañeros de equipo.
+                Regularmente discutíamos el progreso, desafíos e ideas,
+                asegurando que todos estuviéramos en pos de llegar al objetivo.
               </p>
               <p className="mt-2">
-                · Excelent Adaptability and Flexibility, as the project evolved,
-                we remained flexible. We adjusted our approach when necessary,
-                accommodating changes in requirements or unexpected obstacles.
+                · Excelente adaptabilidad y flexibilidad, a medida que el
+                proyecto evolucionaba, nos mantuvimos flexibles. Ajustamos
+                nuestro enfoque cuando fue necesario, acomodándonos a cambios en
+                los requisitos u obstáculos inesperados.
               </p>
             </div>
             <div className="mt-5 gap-5 flex md:flex-row flex-col">
