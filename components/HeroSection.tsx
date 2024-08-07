@@ -28,12 +28,12 @@ export default function HeroSection() {
     );
 
   const text3 =
-    "Podés ver mi CV para más información sobre mi experiencia, educación y certificaciones. ¡Espero poder trabajar con vos y hacer realidad tu proyecto!".split(
+    "Podés ver mi CV para más información sobre mi experiencia, educación y certificaciones!".split(
       " "
     );
 
   const duration = 0.1; // duración de la animación de cada elemento
-  const delayBetweenTexts = 0.1;
+  const delayBetweenTexts = 0.1; // tiempo de espera entre cada elemento
 
   return (
     <section className="min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between mt-10">
