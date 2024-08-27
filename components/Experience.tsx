@@ -3,8 +3,21 @@ import React from "react";
 import Link from "next/link";
 import Title from "./Title";
 import ShinyButton, { ShinyButton2 } from "./ui/shiny-button";
+import { useMotionValue, useTransform } from "framer-motion";
 
 export default function Experience() {
+  const x = useMotionValue(0);
+
+  // Transforma el valor x en un gradiente
+  const background = useTransform(
+    x,
+    [0, 100],
+    [
+      "linear-gradient(90deg, #ff008c, #ffcd3c)",
+      "linear-gradient(90deg, #36e1ff, #ff008c)",
+    ]
+  );
+
   return (
     <section id="experience">
       {" "}

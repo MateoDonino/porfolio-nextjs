@@ -18,12 +18,12 @@ export default function HeroSection() {
   };
 
   const text =
-    "Desarrollador Web, apasionado con experiencia en la creación de aplicaciones eficientes y de calidad. Manejo tecnologías como JavaScript, React, Node.js, TypeScript, entre otras muchas más. Mi especialización es en el Front End, enfocándome en entregar soluciones eficientes y de alta calidad, trabajando de manera colaborativa en entornos ágiles.".split(
+    "Desarrollador Front End, apasionado con experiencia en la creación de aplicaciones eficientes y de calidad. Manejo tecnologías como JavaScript, React, Node.js, TypeScript, entre otras muchas más. Enfocándome en entregar soluciones eficientes y de alta calidad, trabajando de manera colaborativa en entornos ágiles.".split(
       " "
     );
 
   const text2 =
-    "Me gusta entender tus necesidades y convertirlas en aplicaciones funcionales y fáciles de usar. Estoy siempre al tanto de las últimas tendencias del sector y mejoro constantemente mis habilidades para ofrecer soluciones innovadoras y efectivas.".split(
+    "Me considero una persona orientada al aprendizaje continuo y al crecimiento profesional. Me motiva asumir nuevos retos, trabajar en equipo y alcanzar objetivos claros con responsabilidad.".split(
       " "
     );
 
