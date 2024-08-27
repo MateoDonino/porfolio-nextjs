@@ -3,21 +3,8 @@ import React from "react";
 import Link from "next/link";
 import Title from "./Title";
 import ShinyButton, { ShinyButton2 } from "./ui/shiny-button";
-import { useMotionValue, useTransform } from "framer-motion";
 
 export default function Experience() {
-  const x = useMotionValue(0);
-
-  // Transforma el valor x en un gradiente
-  const background = useTransform(
-    x,
-    [0, 100],
-    [
-      "linear-gradient(90deg, #ff008c, #ffcd3c)",
-      "linear-gradient(90deg, #36e1ff, #ff008c)",
-    ]
-  );
-
   return (
     <section id="experience">
       {" "}
@@ -35,9 +22,11 @@ export default function Experience() {
               <div className="text-2xl font-bold">
                 Pasantía en el Área Comercial de Movistar Telefónica
               </div>
-              <div className="text-lg text-green-500">MOVISTAR TELEFÓNICA</div>
-              <time className="text-sm">Enero - Junio 2019</time>
-              <div className="text-[#ADB7BE] text-md text-justify">
+              <div className="text-xl text font-medium">
+                MOVISTAR TELEFÓNICA
+              </div>
+              <time className="text-md">Enero - Junio 2019</time>
+              <div className="text-[#ADB7BE] text-lg text-justify">
                 <p className=" mt-1 ">
                   · Estuve a cargo de supervisar y controlar el stock en varios
                   puntos de venta físicos en la ciudad de Santa Fe.
@@ -69,9 +58,9 @@ export default function Experience() {
             <div className="text-2xl font-bold">
               Desarrollador Web Front End
             </div>
-            <div className="text-lg text-green-500">LUTIN STUDIOS</div>
-            <time className="text-sm">Agosto - Noviembre 2022</time>
-            <div className="text-[#ADB7BE] text-md text-justify border-l-green-500 ">
+            <div className="text-xl text font-medium">LUTIN STUDIOS</div>
+            <time className="text-md">Agosto - Noviembre 2022</time>
+            <div className="text-[#ADB7BE] text-lg text-justify border-l-green-500 ">
               <p className="mt-1">
                 · Colaboré en un proyecto Freelance para un cliente de Chile,
                 que consistió en la creación de un sitio web promocional de NFTs

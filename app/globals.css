@@ -129,3 +129,22 @@ body {
   mask-composite: exclude;
   -webkit-mask-composite: xor;
 }
+
+.text {
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #b43bda, #00f260, #404adb);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+  background-size: 300%;
+  background-position: -100%;
+
+  animation: animatedText 5s infinite alternate-reverse;
+}
+
+@keyframes animatedText {
+  to {
+    background-position: 100%;
+  }
+}
