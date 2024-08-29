@@ -121,7 +121,7 @@ export default function HeroSection() {
           </div>
           <div className="absolute bottom-5 sm:botton-14 left-0 sm:-left-10 hover:scale-110 transition-all">
             <Link
-              href="https://drive.google.com/file/d/1qgdZFiKX0j6g48SpKIcyEarerj2LUWAh/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1iw-kHBegR5vNshzhNqhMt7XA1iAaVSrB/view?usp=drive_link"
               target="_blank"
             >
               <MovingBorderBtn
