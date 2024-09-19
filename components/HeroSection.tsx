@@ -39,7 +39,10 @@ export default function HeroSection() {
     <section className="min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between mt-10">
       <div className="space-y-8 text-center lg:text-left">
         <h1 className=" text-3xl md:text-5xl font-bold ">
-          Hola! Me presento 👋🏻 <br />
+          <span className="bg-gradient-to-r from-blue-600 via-blue-400 to-teal-400 inline-block text-transparent bg-clip-text">
+            Hola! Me presento
+          </span>{" "}
+          👋🏻 <br />
           <span className="underline underline-offset-8 decoration-green-500">
             {"Soy Mateo"}
           </span>
@@ -121,7 +124,7 @@ export default function HeroSection() {
           </div>
           <div className="absolute bottom-5 sm:botton-14 left-0 sm:-left-10 hover:scale-110 transition-all">
             <Link
-              href="https://drive.google.com/file/d/1qgdZFiKX0j6g48SpKIcyEarerj2LUWAh/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1e-G8PDS5txzSwpvutF59dizsaeAnbKUB/view?usp=drive_link"
               target="_blank"
             >
               <MovingBorderBtn
