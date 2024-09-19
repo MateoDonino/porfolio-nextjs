@@ -18,7 +18,7 @@ export default function HeroSection() {
   };
 
   const text =
-    "Desarrollador Front End, apasionado con experiencia en la creación de aplicaciones eficientes y de calidad. Manejo tecnologías como JavaScript, React, Node.js, TypeScript, entre otras muchas más. Enfocándome en entregar soluciones eficientes y de alta calidad, trabajando de manera colaborativa en entornos ágiles.".split(
+    "Soy Desarrollador Front End y estudiante universitario, en busca de mi primer empleo formal dentro del área de desarrollo en el mundo IT. Manejo tecnologías como JavaScript, React, Node.js, TypeScript, entre otras muchas más. Enfocándome en entregar soluciones eficientes y de alta calidad, trabajando de manera colaborativa en entornos ágiles.".split(
       " "
     );
 
@@ -43,7 +43,7 @@ export default function HeroSection() {
             Hola! Me presento
           </span>{" "}
           👋🏻 <br />
-          <span className="underline underline-offset-8 decoration-green-500">
+          <span className="underline underline-offset-8 decoration-green-500 bg-gradient-to-r from-gray-500 via-gray-300 to-white inline-block text-transparent bg-clip-text">
             {"Soy Mateo"}
           </span>
         </h1>
