@@ -18,7 +18,7 @@ export default function HeroSection() {
   };
 
   const text =
-    "Soy Desarrollador Front End y estudiante universitario, en busca de mi primer empleo formal dentro del área de desarrollo en el mundo IT. Manejo tecnologías como JavaScript, React, Node.js, TypeScript, entre otras muchas más. Enfocándome en entregar soluciones eficientes y de alta calidad, trabajando de manera colaborativa en entornos ágiles.".split(
+    "Soy Desarrollador Web y estudiante universitario, en busca de mi primer empleo formal dentro del área de desarrollo en el mundo IT. Manejo tecnologías como JavaScript, React, Node.js, TypeScript, entre otras muchas más. Enfocándome en entregar soluciones eficientes y de alta calidad, trabajando de manera colaborativa en entornos ágiles.".split(
       " "
     );
 
