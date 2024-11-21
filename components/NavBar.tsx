@@ -35,25 +35,25 @@ export default function Navbar({ className }: { className?: string }) {
             className
           )}
         >
-          <div className="hover:scale-125 transition-all text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2">
+          <div className="hover:scale-125 transition-all text-2xl font-bold underline underline-offset-8 decoration-pink-600 -rotate-2">
             <Link href="#">Portfolio 👩🏻‍💻</Link>
           </div>
           <div className="py-3 flex justify-center items-center gap-12">
             <Link
               href="#experience"
-              className="hover:scale-110 transition-all hover:text-green-500 text-lg font-bold  decoration-gray-500 "
+              className="hover:scale-110 transition-all hover:text-violet-400 text-lg font-bold  decoration-gray-500 "
             >
               Expereriencia
             </Link>
             <Link
               href="#skills"
-              className="hover:scale-110 transition-all hover:text-indigo-500 text-lg font-bold  decoration-gray-500"
+              className="hover:scale-110 transition-all hover:text-pink-400 text-lg font-bold  decoration-gray-500"
             >
               Skills
             </Link>
             <Link
               href="#projects"
-              className="hover:scale-110 transition-all hover:text-green-500 text-lg font-bold  decoration-gray-500"
+              className="hover:scale-110 transition-all hover:text-violet-400 text-lg font-bold  decoration-gray-500"
             >
               Proyectos
             </Link>

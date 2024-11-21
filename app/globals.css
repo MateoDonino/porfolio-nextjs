@@ -132,7 +132,14 @@ body {
 
 .text {
   text-transform: uppercase;
-  background-image: linear-gradient(to right, #b43bda, #00f260, #404adb);
+  background-image: linear-gradient(
+    to right,
+    #8a2be2,
+    #d82b2b,
+    #0d55db,
+    #d82b2b,
+    #8a2be2
+  );
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -140,7 +147,7 @@ body {
   background-size: 300%;
   background-position: -100%;
 
-  animation: animatedText 5s infinite alternate-reverse;
+  animation: animatedText 10s infinite alternate-reverse;
 }
 
 @keyframes animatedText {

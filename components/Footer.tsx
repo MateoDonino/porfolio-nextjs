@@ -27,7 +27,7 @@ export default function Navbar({ className }: { className?: string }) {
           className
         )}
       >
-        <div className="hover:scale-125 transition-all text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2">
+        <div className="hover:scale-125 transition-all text-2xl font-bold underline underline-offset-8 decoration-blue-600 -rotate-2">
           <Link href="#">Portfolio 👩🏻‍💻</Link>
         </div>
         <div className="flex items-center gap-5">

@@ -39,11 +39,11 @@ export default function HeroSection() {
     <section className="min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between mt-10">
       <div className="space-y-8 text-center lg:text-left">
         <h1 className=" text-3xl md:text-5xl font-bold ">
-          <span className="bg-gradient-to-r from-blue-600 via-blue-400 to-teal-400 inline-block text-transparent bg-clip-text">
+          <span className="bg-gradient-to-r from-pink-600 via-violet-600 to-blue-600 inline-block text-transparent bg-clip-text">
             Hola! Me presento
           </span>{" "}
           👋🏻 <br />
-          <span className="underline underline-offset-8 decoration-green-500 bg-gradient-to-r from-gray-500 via-gray-300 to-white inline-block text-transparent bg-clip-text">
+          <span className="underline underline-offset-8 decoration-blue-600 bg-gradient-to-r from-gray-500 via-gray-400 to-gray-300 inline-block text-transparent bg-clip-text">
             {"Soy Mateo"}
           </span>
         </h1>
@@ -113,12 +113,12 @@ export default function HeroSection() {
         <div className=" relative">
           <div className="w-72 h-72 space-y-3 -rotate-[30deg] relative">
             <div className="flex gap-3 translate-x-8">
-              <div className="w-32 h-32 rounded-2xl bg-green-500"></div>
-              <div className="w-32 h-32 rounded-full bg-indigo-500"></div>
+              <div className="w-32 h-32 rounded-2xl bg-blue-700"></div>
+              <div className="w-32 h-32 rounded-full bg-pink-700"></div>
             </div>
             <div className="flex gap-3 -translate-x-8">
-              <div className="w-32 h-32 rounded-2xl bg-indigo-500"></div>
-              <div className="w-32 h-32 rounded-full bg-green-500"></div>
+              <div className="w-32 h-32 rounded-2xl bg-pink-700"></div>
+              <div className="w-32 h-32 rounded-full bg-blue-700"></div>
             </div>
             <div className="glow absolute top-[40%] right-1/2 -z-10"></div>
           </div>
