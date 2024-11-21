@@ -18,12 +18,12 @@ export default function HeroSection() {
   };
 
   const text =
-    "Soy Desarrollador Web Full Stack y estudiante universitario, en busca de mi primer empleo formal dentro del área de desarrollo en el mundo IT. Manejo tecnologías como JavaScript, React, Java, TypeScript, entre otras muchas más. Enfocándome en entregar soluciones eficientes y de alta calidad, trabajando de manera colaborativa en entornos ágiles.".split(
+    "Soy Desarrollador Web Full Stack y estudiante universitario de Ingeniería en Informática, en busca de mi primer empleo formal dentro del área de desarrollo en el mundo IT. Manejo tecnologías como JavaScript, React, Node.js, Java, TypeScript, entre otras muchas más. Enfocándome en entregar soluciones eficientes y de alta calidad, trabajando de manera colaborativa en entornos ágiles.".split(
       " "
     );
 
   const text2 =
-    "Me considero una persona orientada al aprendizaje continuo y al crecimiento profesional. Me motiva asumir nuevos retos, trabajar en equipo y alcanzar objetivos claros con responsabilidad.".split(
+    "Me considero una persona orientada al aprendizaje continuo y al crecimiento profesional. Me motiva asumir nuevos retos, trabajar en equipo y alcanzar objetivos claros con responsabilidad. También destaco mi proactividad, mi buen nivel de comunicación y empatía.".split(
       " "
     );
 
@@ -124,7 +124,7 @@ export default function HeroSection() {
           </div>
           <div className="absolute bottom-5 sm:botton-14 left-0 sm:-left-10 hover:scale-110 transition-all">
             <Link
-              href="https://drive.google.com/file/d/1MoyDfItutM1mJA4sBN2Nm8EPtwVjTrMN/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1IqyY52riniT9fVVcEVfGYG04bQnReC5H/view?usp=drive_link"
               target="_blank"
             >
               <MovingBorderBtn
